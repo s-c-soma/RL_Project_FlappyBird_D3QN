@@ -1,1 +1,1 @@
-# RL Project FlappyBird_Double Dueling Deep Q Network
+# RL Project: Training Flappy Bird using Double Dueling Deep Q Network
