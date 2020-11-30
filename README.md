@@ -4,6 +4,18 @@
 
 
 ## Summary
+Flappy Bird was a popular iOS and Andorid game between 2013 and 2014. The was a side-scrolling game that had the user flap the birds wings to get past as many obstacles as possible. For every avoided obstacle the user would earn one point, acumulating to the total score. 
+
+This repository contains the source code to train a deep reinforcement learning model to play the flappy bird game and attempt to reach a high score. For this project we decided to use Dueling Double Deep Q Network (D3QN) with prioritized experience replay. 
+
+In this repository you will find
+  - Python Source Code
+  - Results
+  - Google Colabs
+  - Screenshots
+  - Model
+
+
 ## D3QN Network
 ![D3QN Network](https://cdn-images-1.medium.com/max/1200/1*FkHqwA2eSGixdS-3dvVoMA.png)
 
