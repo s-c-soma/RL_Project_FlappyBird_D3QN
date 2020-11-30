@@ -38,6 +38,7 @@ Execute the following command to run the trained model from 'model' folder. Here
 > python play_game.py --model model/1_best_flappy_model.dat
 
 ## Training Result
-![Training Plot](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/d3qn_trainingplot.png)
+![Training Plot](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/d3qn_trainingplot.png?raw=true "D3QN Training Plot for Infinity Model")
+
 
 ## Acknowledements
