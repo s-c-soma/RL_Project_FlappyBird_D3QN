@@ -25,7 +25,7 @@
     ├── screenshots                                             # Contains Gif file used in readme file
     ├── runs                                                    # Tesnorboard log files
     ├── documents                                               # Contains ppt presentation and project report
-    ├── play_game.py                                            # Python file for training model in local environment
+    ├── play_game.py                                            # Python file to run the model from 'model' folder
     └── README.md
 
 ## Setup Environment
@@ -34,5 +34,7 @@ For environment setup please use Python version 3.x.x and setup the required pac
 > pip install -r requirements.txt
 
 ## Running The Game
+Execute the following command to run the trained model from 'model' folder. Here '--model' indicates the location of saved D3QN model.
+> python play_game.py --model model/1_best_flappy_model.dat
 
 ## Acknowledements
