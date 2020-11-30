@@ -1,6 +1,6 @@
 # RL Project: Training Flappy Bird using Double Dueling Deep Q Network [D3QN]
 
-![Gameplay](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/gameplay.gif)
+
 <p align="center">
   <img width="460" height="300" src="https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/gameplay.gif">
 </p>
