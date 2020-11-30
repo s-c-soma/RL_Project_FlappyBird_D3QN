@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/gameplay.gif">
+  <src="https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/gameplay.gif">
 </p>
 
 
