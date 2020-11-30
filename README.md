@@ -1,11 +1,11 @@
-# RL Project: Training Flappy Bird using Double Dueling Deep Q Network
+# RL Project: Training Flappy Bird using Double Dueling Deep Q Network [D3QN]
 
 ![Gameplay](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/gameplay.gif)
 
 
 ## Summary
-
-
+## D3QN Network
+![D3QN Network](https://cdn-images-1.medium.com/max/1200/1*FkHqwA2eSGixdS-3dvVoMA.png)
 
 ## Folder Structure and Files 
     .
@@ -38,7 +38,6 @@ Execute the following command to run the trained model from 'model' folder. Here
 > python play_game.py --model model/1_best_flappy_model.dat
 
 ## Training Result
-![Training Plot](https://cdn-images-1.medium.com/max/1200/1*FkHqwA2eSGixdS-3dvVoMA.png)
-(https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/d3qn_trainingplot.png)
+![Training Plot](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/d3qn_trainingplot.png)
 
 ## Acknowledements
