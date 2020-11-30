@@ -5,7 +5,10 @@
 
 ## Summary
 
-## Prerequisites
+## Setup Environment
+For environment setup please use Python version 3.x.x and setup the required packages from requirements.txt
+
+> pip install -r requirements.txt
 
 ## Folder Structure and Files 
 
