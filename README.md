@@ -37,4 +37,7 @@ For environment setup please use Python version 3.x.x and setup the required pac
 Execute the following command to run the trained model from 'model' folder. Here '--model' indicates the location of saved D3QN model.
 > python play_game.py --model model/1_best_flappy_model.dat
 
+## Training Result
+![Training Plot](https://github.com/s-c-soma/flappy-bird-deep-q-learning/blob/master/screenshots/d3qn_trainingplot.png)
+
 ## Acknowledements
