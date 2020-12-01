@@ -31,7 +31,7 @@ In this repository you will find
     │   ├── flappy_utils.py                      
     │   └── flappy_wrapped.py          
     ├── model                                              
-    │   └── 1_best_flappy_model.dat                             # Infinity Glappy Bird agent model trained with D3QN 
+    │   └── infinity_flappy_bird_model.dat                             # Infinity Glappy Bird agent model trained with D3QN 
     ├── result_csv                                              
     │   └── d3qn_mean reward.csv                                # CSV file containing Mean Reward from D3QN Best Model
     ├── screenshots                                             # Contains Gif file used in readme file
@@ -50,6 +50,9 @@ To Train the model from Jupyter Notebook please go to the root folder and start 
 
 Start the TensorBoard executing the following command:
 >tensorboard --logdir runs --host localhost
+
+Then go to your browser and open:
+> http://localhost:6006
 
 Excecute the colab:
 > Flappy_DoubleDueling_DQN.ipynb
