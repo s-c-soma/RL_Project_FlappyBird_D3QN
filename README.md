@@ -42,8 +42,17 @@ In this repository you will find
 
 ## Setup Environment
 For environment setup please use Python version 3.x.x and setup the required packages from requirements.txt
-
 > pip install -r requirements.txt
+
+## Training Model in Jupyter Notebook and Tensorboard Setup
+To Train the model from Jupyter Notebook please go to the root folder and start Jupyter Nootbook using the following command
+> Jupyter Notebook
+
+Start the TensorBoard executing the following command:
+>tensorboard --logdir runs --host localhost
+
+Excecute the colab:
+> Flappy_DoubleDueling_DQN.ipynb
 
 ## Running The Game
 Execute the following command to run the trained model from 'model' folder. Here '--model' indicates the location of saved D3QN model.
