@@ -91,7 +91,7 @@ if __name__=='__main__':
     env = game.GameState()
     args = parser.parse_args()
     net = DDQN( (STATE_DIM,84,84), 2 ).to(device)
-    net.load_state_dict(torch.load('model/flappy_best_model.dat', map_location=torch.device('cpu')))
+    net.load_state_dict(torch.load('model/infinity_flappy_bird_model.dat', map_location=torch.device('cpu')))
     
     input("Please Press Enter to Start")
     state = initial_autoplay(env)
