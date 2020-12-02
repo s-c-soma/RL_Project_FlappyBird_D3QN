@@ -11,7 +11,7 @@ This repository contains the source code to train a deep reinforcement learning 
 In this repository you will find
   - Python Source Code
   - Results
-  - Google Colabs
+  - Jupyter notebook
   - Screenshots
   - Model
 
@@ -60,10 +60,10 @@ For environment setup please use Python version 3.x.x and setup the required pac
 To Train the model from Jupyter Notebook please go to the root folder and start Jupyter Nootbook using the following command
 > Jupyter Notebook
 
-Launch the TensorBoard executing the following command:
+Launch the TensorBoard by executing the following command:
 >`tensorboard --logdir runs --host localhost`
 
-Execute the colab:
+Execute the notebook:
 > Flappy_DoubleDueling_DQN.ipynb
 
 ## Running The Game
