@@ -21,23 +21,14 @@ In this repository you will find
 
 ### Training Procedure
 1. Source and Target networks are Dueling DQN networks – 3 CONV2D networks with Relu activation​
-
 2. The training method is used to train our q network for q values.​
-
 3. Update target network every time after q network is trained for tau times.​
-
 4. The Q values are predicted for currents state and next states by q network and target network respectively.​
-
 5. From the frequency of occurance of state value, the prioritized experience replay computes the priority and stores with (s,a,r,s')​
-
 6. Then we sample batch of experiences. These sample batches are tuple array of states, actions, rewards, next states, done and priority variable.(s,a,r,s',p)​
-
 7. Compute Temporal Difference Error for loss computation​
-
-8. Then we calculate the batch index and perform the update operation. Note that this update uses a double DQN update i.e instead of a max of q value of next state, we put q value predicted by the target network for action that has maximum q value according to q network in the next state.​
-
+8. Then we calculate the batch index and perform the update operation. *Note that this update uses a double DQN update i.e instead of a max of q value of next state, we put q value predicted by the target network for action that has maximum q value according to q network in the next state.*​
 9. The update equation is multiplied by done variables because for terminal state q value is always zero.​
-
 10. Then we train the model, update epsilon, and increment train step.
 
 ## Folder Structure and Files 
@@ -63,24 +54,29 @@ In this repository you will find
 
 ## Setup Environment
 For environment setup please use Python version 3.x.x and setup the required packages from requirements.txt
-> pip install -r requirements.txt
+> `pip install -r requirements.txt`
 
 ## Training Model in Jupyter Notebook and Tensorboard Setup
 To Train the model from Jupyter Notebook please go to the root folder and start Jupyter Nootbook using the following command
 > Jupyter Notebook
 
-Start the TensorBoard executing the following command:
->tensorboard --logdir runs --host localhost
+Launch the TensorBoard executing the following command:
+>`tensorboard --logdir runs --host localhost`
 
-Then go to your browser and open:
-> http://localhost:6006
-
-Excecute the colab:
+Execute the colab:
 > Flappy_DoubleDueling_DQN.ipynb
 
 ## Running The Game
 Execute the following command to run the trained model from 'model' folder. Here '--model' indicates the location of saved D3QN model.
-> python play_game.py --model model/1_best_flappy_model.dat
+> `python play_game.py --model model/1_best_flappy_model.dat`
+
+### Note:
+The best model is obtained with the following hyperparameter setting
+* EXPERIENCE_BUFFER_SIZE - 2000
+* GAMMA - 0.99
+* Learning rate - 1e-4
+* EPSILON_DECAY_FRAMES - (10**4)/3
+* BATCH_SIZE - 32
 
 ## Training Result
 ![Training Plot](https://github.com/s-c-soma/RL_Project_FlappyBird_D3QN/blob/main/screenshots/d3qn_trainingplot.png?raw=true "D3QN Training Plot for Infinity Model")
