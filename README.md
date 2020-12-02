@@ -19,6 +19,27 @@ In this repository you will find
 ## D3QN Network
 ![D3QN Network](https://cdn-images-1.medium.com/max/1200/1*FkHqwA2eSGixdS-3dvVoMA.png)
 
+### Training Procedure
+1. Source and Target networks are Dueling DQN networks – 3 CONV2D networks with Relu activation​
+
+2. The training method is used to train our q network for q values.​
+
+3. Update target network every time after q network is trained for tau times.​
+
+4. The Q values are predicted for currents state and next states by q network and target network respectively.​
+
+5. From the frequency of occurance of state value, the prioritized experience replay computes the priority and stores with (s,a,r,s')​
+
+6. Then we sample batch of experiences. These sample batches are tuple array of states, actions, rewards, next states, done and priority variable.(s,a,r,s',p)​
+
+7. Compute Temporal Difference Error for loss computation​
+
+8. Then we calculate the batch index and perform the update operation. Note that this update uses a double DQN update i.e instead of a max of q value of next state, we put q value predicted by the target network for action that has maximum q value according to q network in the next state.​
+
+9. The update equation is multiplied by done variables because for terminal state q value is always zero.​
+
+10. Then we train the model, update epsilon, and increment train step.
+
 ## Folder Structure and Files 
     .
     ├── assets                                                  # Contains the required audio and image files
@@ -65,4 +86,4 @@ Execute the following command to run the trained model from 'model' folder. Here
 ![Training Plot](https://github.com/s-c-soma/RL_Project_FlappyBird_D3QN/blob/main/screenshots/d3qn_trainingplot.png?raw=true "D3QN Training Plot for Infinity Model")
 
 
-## Acknowledements
+
