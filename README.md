@@ -79,7 +79,8 @@ The best model is obtained with the following hyperparameter setting
 * BATCH_SIZE - 32
 
 ## Training Result
-![Training Plot](https://github.com/s-c-soma/RL_Project_FlappyBird_D3QN/blob/main/screenshots/d3qn_trainingplot.png?raw=true "D3QN Training Plot for Infinity Model")
+<img src="https://github.com/s-c-soma/RL_Project_FlappyBird_D3QN/blob/main/screenshots/d3qn_trainingplot.png?raw=true" width="400" height="330">
+
 
 
 
