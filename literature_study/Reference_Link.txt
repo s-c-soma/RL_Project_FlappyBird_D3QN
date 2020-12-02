@@ -1,0 +1,27 @@
+# References
+
+* https://www.fromkk.com/posts/using-ddqn-to-play-flappy-bird/​
+
+* https://towardsdatascience.com/use-reinforcement-learning-to-train-a-flappy-bird-never-to-die-35b9625aaecc​
+
+* https://towardsdatascience.com/practical-reinforcement-learning-02-getting-started-with-q-learning-582f63e4acd9​
+
+* http://cs229.stanford.edu/proj2015/362_report.pdf​
+
+* https://github.com/adityajn105
+
+* https://www.freecodecamp.org/news/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8/​
+
+* https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/​
+
+* https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-4-double-dqn-and-dueling-dqn-b349c9a61ea1​
+
+* https://arxiv.org/pdf/1511.06581.pdf​
+
+* https://arxiv.org/abs/1509.06461
+
+* https://www.youtube.com/watch?v=t4Q44httqF8&feature=emb_title&ab_channel=PythonLessons
+
+* https://www.youtube.com/watch?v=XjsY8-P4WHM&ab_channel=AndrewMelnik
+
+* https://www.youtube.com/watch?v=qJd3yaEN9Sw&ab_channel=StanfordScholar
